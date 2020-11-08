@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "./node_modules/parcel-bundler/bin/cli.js index.html --port 8080",
-    "build": "parcel build index.html"
+    "start": "node ./bin/www"
   },
   "engine": {
     "node": "*",
