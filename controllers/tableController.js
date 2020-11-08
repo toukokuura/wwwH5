@@ -1,8 +1,8 @@
 var Table = require("../controllers/table");
 
 //validate
-const { body, validationResult } = require("express-validator/check");
-const { sanitizeBody } = require("express-validator/filter");
+//const { body, validationResult } = require("express-validator");
+const { sanitizeBody } = require("express-validator");
 
 //for rendering table
 exports.index = function (req, res, next) {
